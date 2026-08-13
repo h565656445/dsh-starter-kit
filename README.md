@@ -88,12 +88,12 @@ Hermes Harness is a control-plane and engineering framework for LLM agents (auth
 
 ### 场景一：快速定位任意衍生项目
 
-目标：在 31 个项目中找到「小说转 AI 视频」相关仓库。
+目标：在 31 个项目中找到「小说规格」相关仓库。
 
 步骤：
 1. 安装 dsh-integration 预设（见上）。
-2. 在会话中提问：在 CATALOG.md 中查找小说视频相关项目。
-3. 预期结果：返回 dsh-novel-video-pipeline 及其一句话简介、来源映射。
+2. 在会话中提问：在 CATALOG.md 中查找小说相关项目。
+3. 预期结果：返回 dsh-novel-specs 及其一句话简介、来源映射。
 
 ### 场景二：用示例 preset 创建自己的预设
 
