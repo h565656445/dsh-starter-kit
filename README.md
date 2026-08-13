@@ -29,7 +29,7 @@ This repository is the **bilingual starter kit** for Hermes Harness and its Deep
 
 ## Hermes Harness 是什么 / What Is Hermes Harness
 
-Hermes Harness 是一套面向 LLM Agent 的控制平面与工程化框架（作者 h565656445）：以 PowerShell 模块承载任务契约、质量门禁、可观测性与升级治理，围绕 Agent OS 内核（运行时、规划、调度、worker 协议、可观测性）组织多 Agent 编排，并沉淀为 JSON Schema 驱动的契约体系。其可复用产物已按 A–H 八组拆分为 40 个 DSH 衍生开源项目（完整索引见 dsh-integration）。
+Hermes Harness 是一套面向 LLM Agent 的控制平面与工程化框架（作者 h565656445）：以 PowerShell 模块承载任务契约、质量门禁、可观测性与升级治理，围绕 Agent OS 内核（运行时、规划、调度、worker 协议、可观测性）组织多 Agent 编排，并沉淀为 JSON Schema 驱动的契约体系。其可复用产物已按 A–H 八组拆分为 31 个 DSH 衍生开源项目（完整索引见 dsh-integration）。
 
 Hermes Harness is a control-plane and engineering framework for LLM agents (author h565656445): PowerShell modules implement task contracts, quality gates, observability, and upgrade governance; an Agent OS kernel (runtime, planning, scheduling, worker protocol, observability) organizes multi-agent orchestration; and a JSON-Schema-driven contract system keeps everything consistent. Its reusable artifacts are split into 42 DSH derivative open-source projects across groups A–H (full index in dsh-integration).
 
@@ -88,7 +88,7 @@ Hermes Harness is a control-plane and engineering framework for LLM agents (auth
 
 ### 场景一：快速定位任意衍生项目
 
-目标：在 40 个项目中找到「小说转 AI 视频」相关仓库。
+目标：在 31 个项目中找到「小说转 AI 视频」相关仓库。
 
 步骤：
 1. 安装 dsh-integration 预设（见上）。
@@ -129,9 +129,11 @@ Hermes Harness is a control-plane and engineering framework for LLM agents (auth
 
 ---
 
+---
+
 ## 相关项目 / Related Projects
 
-> 这是 DeepSeek Harness 个人适配系列（共 40 个仓库）的完整导航。 / This is the complete navigation for the DeepSeek Harness personal-adaptation series (40 repos).
+> 这是 DeepSeek Harness 个人适配系列（共 31 个仓库）的完整导航。 / This is the complete navigation for the DeepSeek Harness personal-adaptation series (31 repos).
 
 ### Agent OS 内核 / Kernel
 
@@ -139,11 +141,7 @@ Hermes Harness is a control-plane and engineering framework for LLM agents (auth
 
 ### Harness 基础设施 / Infrastructure
 
-[`dsh-harness-core`](https://github.com/h565656445/dsh-harness-core) · [`dsh-graph-entry`](https://github.com/h565656445/dsh-graph-entry) · [`dsh-async-job`](https://github.com/h565656445/dsh-async-job) · [`dsh-file-identity`](https://github.com/h565656445/dsh-file-identity) · [`dsh-json-projection`](https://github.com/h565656445/dsh-json-projection) · [`dsh-manual-approval`](https://github.com/h565656445/dsh-manual-approval) · [`dsh-observation-writer`](https://github.com/h565656445/dsh-observation-writer) · [`dsh-provider-control`](https://github.com/h565656445/dsh-provider-control) · [`dsh-schema-negotiator`](https://github.com/h565656445/dsh-schema-negotiator) · [`dsh-schema-registry`](https://github.com/h565656445/dsh-schema-registry) · [`dsh-upgrade-governance`](https://github.com/h565656445/dsh-upgrade-governance) · [`dsh-task-contract`](https://github.com/h565656445/dsh-task-contract) · [`dsh-quality-gates`](https://github.com/h565656445/dsh-quality-gates) · [`dsh-worker-tests`](https://github.com/h565656445/dsh-worker-tests)
-
-### Worker 与管线 / Workers & Pipelines
-
-[`dsh-codex-worker`](https://github.com/h565656445/dsh-codex-worker) · [`dsh-novel-chapter-trial`](https://github.com/h565656445/dsh-novel-chapter-trial) · [`dsh-novel-video-pipeline`](https://github.com/h565656445/dsh-novel-video-pipeline) · [`dsh-portfolio-routing`](https://github.com/h565656445/dsh-portfolio-routing) · [`dsh-meta-agents-bridge`](https://github.com/h565656445/dsh-meta-agents-bridge)
+[`dsh-harness-core`](https://github.com/h565656445/dsh-harness-core) · [`dsh-graph-entry`](https://github.com/h565656445/dsh-graph-entry) · [`dsh-async-job`](https://github.com/h565656445/dsh-async-job) · [`dsh-file-identity`](https://github.com/h565656445/dsh-file-identity) · [`dsh-json-projection`](https://github.com/h565656445/dsh-json-projection) · [`dsh-manual-approval`](https://github.com/h565656445/dsh-manual-approval) · [`dsh-observation-writer`](https://github.com/h565656445/dsh-observation-writer) · [`dsh-provider-control`](https://github.com/h565656445/dsh-provider-control) · [`dsh-schema-negotiator`](https://github.com/h565656445/dsh-schema-negotiator) · [`dsh-upgrade-governance`](https://github.com/h565656445/dsh-upgrade-governance)
 
 ### 规格与文档 / Specs & Docs
 
