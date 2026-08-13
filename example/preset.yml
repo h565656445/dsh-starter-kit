@@ -1,0 +1,5 @@
+# 示例 preset.yml —— 复制到 $DSH_HOME\.agent-presets\<id>\ 后即可作为个人预设使用。
+# 字段说明：name（中文名）/ description（双语描述）/ order（排序序号）。
+name: 我的示例预设
+description: 这是一个示例 Agent 预设（中文描述）/ This is a sample agent preset (English description).
+order: 4
